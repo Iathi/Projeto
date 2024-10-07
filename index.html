@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px; /* Ajuste o tamanho conforme necessário */
+            height: 150px; /* Ajuste o tamanho conforme necessário */
+            border-radius: 50%; /* Torna a imagem redonda */
+            margin-top: 10px; /* Espaçamento acima da imagem */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 48%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #555;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .contact-btn {
+            background-color: #28a745;
+        }
+
+        .contact-btn:hover {
+            background-color: #218838;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio - Matheus Henrique E. Alves</h1>
+        <img src="topo.jpg" alt="Sua Foto" class="profile-pic">
+        <p>Matheus Henrique E. Alves<p/>
+        <p>Desenvolvedor de Aplicativos: Python | HTML | JavaScript</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor autodidata com experiência em Python, HTML, CSS e JavaScript. Gosto de criar soluções inovadoras e eficientes, com projetos que envolvem automação, integração de APIs e desenvolvimento web. Estou sempre em busca de novos desafios e aprendizados.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Sistema de Geolocalização em Tempo Real</h3>
+                    <p>Desenvolvi um sistema que exibe a localização dos usuários em tempo real, utilizando Python e JavaScript com integração de mapas via API.</p>
+                    <a href="[link para o projeto]" target="_blank"><button>Ver Projeto</button></a>
+                </div>
+                <div class="project">
+                    <h3>Painel de Controle Responsivo</h3>
+                    <p>Criado com HTML, CSS e JavaScript, este painel de controle oferece uma interface interativa e responsiva para facilitar a gestão de dados.</p>
+                    <a href="[link para o projeto]" target="_blank"><button>Ver Projeto</button></a>
+                </div>
+                <div class="project">
+                    <h3>Sistema de Automação com Python</h3>
+                    <p>Automatizei o envio de mensagens utilizando Python e APIs, otimizando o processo de comunicação em massa.</p>
+                    <a href="[link para o projeto]" target="_blank"><button>Ver Projeto</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato para saber mais sobre meus projetos ou discutir novas oportunidades de trabalho.</p>
+            <a href="mailto:[Seu E-mail]"><button class="contact-btn">Entre em Contato</button></a>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contato: [Seu E-mail] | [Seu Telefone]</p>
+        <p><a href="[LinkedIn ou GitHub]">Visite meu LinkedIn/GitHub</a></p>
+    </footer>
+</body>
+</html>
 
